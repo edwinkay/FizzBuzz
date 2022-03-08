@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(196, 175, 148);
+    text-align: center;
+}
+.margin{
+    margin: 12px 120px 
+    7px 120px;
+    border-radius: 12px;
+    border: crimson 4px solid;
+    box-sizing: border-box;
+
+}
+h1{
+    color: blue;
+}
