@@ -1,6 +1,7 @@
 body{
     background-color: rgb(196, 175, 148);
     text-align: center;
+    overflow: hidden;
 }
 .margin{
     margin: 12px 120px 
@@ -9,7 +10,15 @@ body{
     border: crimson 4px solid;
     box-sizing: border-box;
 
+
 }
 h1{
     color: blue;
+}
+@media (max-width: 640px) {
+    .margin{
+        width: 80%;
+        position: relative;
+        right: 65px;
+    }
 }
